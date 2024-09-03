@@ -11,7 +11,7 @@ body {
 
 /* navigation menu */
 nav {
-    border-radius: 25ex;
+    border-radius: 5px;
     background: rgb(26, 100, 26);
    margin: 0 auto;
    margin-bottom: 20px;
@@ -41,7 +41,6 @@ a {
 main {
     background: rgb(26, 100, 26);
     display: flex;
-    border-radius: 5px;
 }
 .sidebar {
     margin-right: 25px;
@@ -75,5 +74,30 @@ h2, h3 {
 
 .bigboy{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #fff;
+    color: rgb(172, 158, 250);
+}
+
+.content h1 {
+    color: black;
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #eee;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #454545;
 }
