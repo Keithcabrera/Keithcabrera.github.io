@@ -63,8 +63,9 @@ h2, h3 {
     margin: 0px;
 }
 .sigma{
-    font-family: monospace;
     color: rgb(172, 158, 250);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px 
 } 
 
 .alpha{
@@ -101,3 +102,4 @@ h2, h3 {
     text-decoration: none;
     color: #454545;
 }
+
