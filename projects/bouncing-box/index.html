@@ -71,7 +71,7 @@ var points = 0;
 var speed = 10;
 var speedY = 10;
 var positionY = 0;
-
+var  randNum = Math.random() * 100
         /* 
 			This Function will be called 20 times/second. Each time it is called,
 			it should move the Box to a new location. If the box drifts off the screen
@@ -101,9 +101,9 @@ var positionY = 0;
 			the left side of the screen.
 			*/
         function handleBoxClick() {
-			positionX= 0;
+			positionX = positionX;
 			points = points + 1;
-      speed = speed + 3;
+      speed = speed + 5;
 			changeBoxText(points);
 		}
       })();
