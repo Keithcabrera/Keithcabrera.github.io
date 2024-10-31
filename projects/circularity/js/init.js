@@ -49,19 +49,18 @@ while(circlesSpawned < 100){
         */
         function update() {
             // TODO 4 : Update the circle's position //
-physikz.updatePosition(circles[0]);
-for (var i =0; i < circles.length; i++){
-    physikz.updatePosition(circles[i]);
+            
 }    
 
 
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-           game.checkCirclePosition(circles[4])
+        
           
 
             // TODO 9 : Iterate over the array
-           
+           physikz.udatePosition(circles[i])
+           game.checkCirclePosition(circles[i])
             
         }
     
@@ -108,7 +107,7 @@ for (var i =0; i < circles.length; i++){
         
         app.addUpdateable(window.opspark.game);
     }
-};
+
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////
 if((typeof process !== 'undefined') &&
