@@ -13,7 +13,7 @@ var init = function (window) {
     window.opspark.makeGame = function() {
         
         window.opspark.game = {};
-        var game = window.opspark.game;
+        var game = window.opspark.game; }
         
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM SETUP ////////////////////////////
@@ -62,7 +62,7 @@ while(circlesSpawned < 100){
            physikz.udatePosition(circles[i])
            game.checkCirclePosition(circles[i])
             
-        }
+        
     
         /* 
         This Function should check the position of a circle that is passed to the 
@@ -113,5 +113,5 @@ while(circlesSpawned < 100){
 if((typeof process !== 'undefined') &&
     (typeof process.versions.node !== 'undefined')) {
     // here, export any references you need for tests //
-    module.exports = init;
-}
+    module.exports = init; 
+ }
